@@ -1,0 +1,14 @@
+     1	backups
+     2	cache
+     3	crash
+     4	lib
+     5	local
+     6	lock
+     7	log
+     8	mail
+     9	metrics
+    10	opt
+    11	run
+    12	snap
+    13	spool
+    14	tmp

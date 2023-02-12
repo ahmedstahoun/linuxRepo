@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
+                
+</head>
+<body>
+    
+<!-- The clock Container -->
+    <div class="clockContainer">
+
+        
+
+        <div class="mainClock">
+
+            <div class="date">
+                <span class="mon">MON</span>
+                <span class="tue">TUE</span>
+                <span class="wed">WED</span>
+                <span class="thu">THU</span>
+                <span class="fri">FRI</span>
+                <span class="sat">SAT</span>
+                <span class="sun">SUN</span>
+            </div>
+            <div class="watch"></div>
+            <svg class="open-button"  xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"> <path d="m11.75 1.75 2.5 2m-10-2-2.5 2m10.5 9.5 1 1m-9.5-1-1 1m5.5-7.5v2.5l-1.5 1"/> <circle cx="8" cy="9" r="5.25"/> </svg>
+
+        </div>
+
+    </div>
+
+
+    <div class="popup" id="popup">
+        <div class="popContainer">
+                       <a href="#" id="close" class="close"></a>
+                      <span class="textAlarm">SET ALARM AFTER</span>
+
+                    <div class="timeSetting">
+
+                                <div class="hours">
+                                    <span>HOURS</span>
+                                    <input type="text" id="hoursInp" maxlength="3" value=0 >
+                                </div>  
+                                <div class="minutes">
+                                    <span class="minutes">MINUTES</span>
+                                    <input type="text" id="minutesInp" maxlength="2" value=0>
+                                </div>
+                                <div class="seconds">
+                                    <span class="seconds">SECONDS</span>
+                                    <input type="text" id="secondsInp" maxlength="2" value=0>
+                                </div>
+
+                    </div>
+
+                    <div class="buttons">
+                                <button class="setAlarm" >SET</button>
+                                <button class="clear">Clear</button>
+                    </div>
+
+            
+
+      </div>
+
+
+    </div>
+
+    <p>Digital Clock</p>
+
+
+
+
+
+    <script src="logic.js"></script>
+</body>
+</html>
